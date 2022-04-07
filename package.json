@@ -1,0 +1,16 @@
+{
+	"name": "manage",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "tailwindcss -i ./base-styles.css -o ./css/app.css",
+		"watch": "tailwindcss -i ./base-styles.css -o ./css/app.css --watch"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"tailwindcss": "^3.0.23"
+	}
+}
